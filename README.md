@@ -1,6 +1,6 @@
 # Hotel-Check
 
-deploy: https://dulcet-griffin-2c3c6f.netlify.app/
+deploy: https://hotel-check-by-p3rfec77-2c3c6f.netlify.app
 
 ## О Проекте
 
