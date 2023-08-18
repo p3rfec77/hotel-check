@@ -153,7 +153,7 @@ export const fetchHotelsAsync = (data) => async (dispatch) => {
   dispatch(setFormData({ data }));
 
   const url = new URL(
-    `http://engine.hotellook.com/api/v2/cache.json?currency=rub&limit=15&lang=ru`
+    `https://engine.hotellook.com/api/v2/cache.json?currency=rub&limit=15&lang=ru`
   );
   const params = url.searchParams;
   params.set("location", data.location);
