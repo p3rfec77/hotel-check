@@ -23,12 +23,3 @@ yarn
 ```bash
 yarn dev
 ```
-
-## Как склонировать
-
-```bash
-git clone https://github.com/p3rfec77/hotel-check.git
-cd windows или откройте папку в вашей IDE
-git remote set-url origin ваш-url
-git push -u origin master
-```
