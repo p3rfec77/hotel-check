@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #41522e;
+  background: transparent;
+
+  .arrows-container {
+    display: flex;
+    flex-direction: column;
+
+    .arrow {
+      fill: rgba(65, 82, 46, 0.3);
+    }
+    .field {
+      fill: rgba(65, 82, 46, 1);
+    }
+  }
+}

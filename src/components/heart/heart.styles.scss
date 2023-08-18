@@ -1,0 +1,14 @@
+.heart {
+  &:hover {
+    fill: #ebebeb;
+    stroke-width: 1px;
+    stroke: #c4c4c4;
+    cursor: pointer;
+  }
+}
+
+.favorite,
+.favorite:hover {
+  fill: #e55858;
+  stroke: none;
+}

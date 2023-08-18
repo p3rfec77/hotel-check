@@ -1,0 +1,29 @@
+.hotels-container {
+  position: relative;
+  background: #f4f4f4;
+  min-height: 100vh;
+  padding-bottom: 26px;
+
+  .error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .hotels-main {
+    display: grid;
+    grid-template-areas:
+      "form hotels"
+      "favorites hotels";
+    grid-template-columns: minmax(100px, 360px) 1fr;
+    grid-template-rows: minmax(100px, 410px) 1fr;
+    gap: 24px;
+    max-width: 1048px;
+    margin: 0 auto;
+  }
+}

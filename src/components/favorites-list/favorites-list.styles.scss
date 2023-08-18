@@ -1,0 +1,43 @@
+.favorites-list-wrapper {
+  grid-area: favorites;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 360px;
+  padding: 32px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+
+  .favorites-title {
+    color: #424242;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+  }
+
+  .container {
+    max-height: 296px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+      border-radius: 2px;
+      background: #e7e7e7;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      width: 2px;
+      border-radius: 2px;
+      background: #41522e;
+    }
+
+    .spinner {
+      margin: 50px;
+    }
+  }
+}

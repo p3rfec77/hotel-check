@@ -1,0 +1,72 @@
+.hotels-list-wrapper {
+  grid-area: hotels;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 664px;
+  padding: 48px 32px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+  color: #424242;
+
+  .hotels-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .city-title {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 32px;
+      font-weight: 500;
+
+      .arrow {
+        width: 8.667px;
+        height: 17.333px;
+      }
+    }
+
+    .check-in-date {
+      color: #41522e;
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+
+  .favourites-counter {
+    display: flex;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+
+    .count {
+      color: #41522e;
+      font-weight: 500;
+      margin: 0 4px 0 8px;
+    }
+  }
+
+  .hotels-info-container {
+    max-height: 529px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+      border-radius: 2px;
+      background: #e7e7e7;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      width: 2px;
+      border-radius: 2px;
+      background: #41522e;
+    }
+
+    .spinner {
+      margin: 125px;
+    }
+  }
+}

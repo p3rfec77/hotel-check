@@ -1,0 +1,21 @@
+.hotels-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  color: #424242;
+
+  .hotels-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .logout-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #424242;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
